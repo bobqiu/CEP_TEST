@@ -1,0 +1,4 @@
+<bean id="kafkaProducerClient" class="com.test.kafka.KafkaProducerClient" init-method="init" destroy-method="close">
+    <property name="zkConnect" value="${zookeeper_cluster}"></property>
+    <property name="defaultTopic" value="${kafka_topic}"></property>
+</bean>
