@@ -1,6 +1,4 @@
-package callback;
-
-import sun.applet.resources.MsgAppletViewer;
+package callback.serverclient;
 
 /**
  * Created by Administrator on 2015/11/4.
